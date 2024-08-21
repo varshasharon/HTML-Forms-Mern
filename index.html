@@ -1,0 +1,502 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Forms using HTML</h1>
+        <br>
+        <div class="form">
+            <h3>Form 1 : Book Club Registeration Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Register for our student book club now!</p>
+            <div>
+                <label for="">Name : </label>
+                <input type="text" name="name" placeholder="Enter name" required> 
+            </div>
+            
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email" required> 
+            </div>
+            <br>
+                <div style="margin: 10px;">
+                    <label for=""><strong>Year of study : </strong></label><br>
+                    <input type="radio" name="year">
+                    <label for="">I Year</label>
+                    <br>
+                    <input type="radio" name="year">
+                    <label for="">II Year</label>
+                    <br>
+                    <input type="radio" name="year">
+                    <label for="">III Year</label>
+                    <br>
+                    <input type="radio" name="year">
+                    <label for="">IV Year</label>
+                </div>
+                <div style="margin: 10px;">
+
+                    <label for=""><strong>What genre excites you the most?</strong></label>
+                    <select name="genre">
+                        <option value="gen0">Psycological</option>
+                        <option value="gen1">Thriller</option>
+                        <option value="gen2">Rom Com</option>
+                        <option value="gen3">Fantasy</option>
+                    </select>
+                </div>
+                
+                <div style="margin: 20px;">
+                    <label for=""><strong>Preferred reading format :</strong></label> <br>
+                    <input type="radio">
+                    <label for="">Physical Books</label>
+                    <br>
+                    <input type="radio" >
+                    <label for="">Audiobooks</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">E Books</label>
+                    <br>
+                    
+                </div>
+                <div>
+                    <label for="auth"><strong>Who is your favorite author?</strong></label>
+                    <input type="text" id="auth" name="auth">
+                    <br><br>
+                    <label for="what"><strong>What draws you to or inspires you about your favourite author?</strong></label>
+                    <br><br>
+                    <textarea name="paragraph_text" cols="50" rows="6" style="border-radius: 5px;"></textarea>
+                    <br>
+                </div>
+                <br>
+                <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+
+
+        </form>
+        </div>
+
+
+        <div class="form">
+            <h3>Form 2 : Reservation Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Train Ticket Reservation</p>
+            <div>
+                <label for=""><strong>First Name : </strong></label>
+                <input type="text" name="fname" placeholder="Enter first name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Last Name : </strong></label>
+                <input type="text" name="lname" placeholder="Enter last name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone : </strong></label>
+                <input type="tel" name="phno" placeholder="Enter mobile number"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Date of journey : </strong></label>
+                <input type="date" name="date"   required> 
+            </div>
+            <div>
+                <label for=""><strong>Time of journey : </strong></label>
+                <input type="time" name="time"   required> 
+            </div>
+            <br>
+            
+            <div style="margin: 10px;">
+                <label for=""><strong>Number of people :</strong></label>
+                    <select name="ppl" required> 
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+            </div>
+            
+                <br>
+                <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 3 : Travel Booking Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Plan your travel with us!</p>
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone : </strong></label>
+                <input type="tel" name="phno" placeholder="Enter mobile number"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Departure Date : </strong></label>
+                <input type="date" name="date"   required> 
+            </div>
+            <div>
+                <label for=""><strong>Return Date : </strong></label>
+                <input type="date" name="date"   required> 
+            </div>
+            
+            <div style="margin: 10px;">
+                <label for=""><strong>Destination :</strong></label>
+                    <select name="dest" required> 
+                        <option>Tokyo</option>
+                        <option>Berlin</option>
+                        <option>Hawaii</option>
+                        <option>Chennai</option>
+                        <option>Hanoi</option>
+                        <option>New Delhi</option>
+                        <option>Hong Kong</option>
+                        <option>Sapa</option>
+                        <option>Seoul</option>
+                    </select>
+            </div>
+            
+                <br>
+                <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 4 : Event Feedback Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Feel free to tell us about your experience :)</p>
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email"  required> 
+            </div>
+            <div>
+                <label for=""><strong>What event did you attend? : </strong></label><br>
+                
+                <input type="checkbox" name="quantum">
+                <label for="">Quantum Computing Workshop</label>
+                <br>
+                <input type="checkbox" name="web">
+                <label for="">Web Development Webinar</label>
+                <br>
+                <input type="checkbox" name="web">
+                <label for="">Data Science Workshop</label>
+                <br>
+                <input type="checkbox" name="iot">
+                <label for="">IoT Devices Workshop</label>
+            </div>
+            <br>
+            <div>
+                <label for="rating"><strong>Rate our event:</strong></label>
+                <select id="rating" name="rating">
+                <option value="5">5 stars</option>
+                <option value="4">4 stars</option>
+                <option value="3">3 stars</option>
+                <option value="2">2 stars</option>
+                <option value="1">1 star</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="feed"><strong>Please give us your feedback (What can we improve?)</strong></label><br>
+                <textarea name="paragraph_text" cols="50" rows="6" style="border-radius: 5px;"></textarea>
+                <br>
+            </div>
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 5 : Membership Application Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Hi there! Please fill our the form to join our membership</p>
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone : </strong></label>
+                <input type="tel" name="phno" placeholder="Enter mobile number"  required> 
+            </div>
+            <br>
+            <div>
+                <label for="rating"><strong>Membership type :</strong></label>
+                <select id="rating" name="rating">
+                <option value="5">Standard</option>
+                <option value="4">Premium</option>
+                <option value="3">Monthly </option>
+                <option value="2">Yearly</option>
+                <option value="1">Pay-as-you-go</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="feed"><strong>Reason for Joining :</strong></label><br>
+                <input type="text" id="auth" name="auth">
+                <br>
+            </div>
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 6 : Online Art Contest Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Love making art? Join the biggest art contest now!</p>
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter full name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Age : </strong></label>
+                <input type="number" name="age"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone : </strong></label>
+                <input type="tel" name="phone" placeholder="Enter phone number"  required> 
+            </div>
+            <div style="margin: 10px;">
+                <label for=""><strong>What medium do you use?</strong></label>
+                <select name="med">
+                    <option >Acrylic</option>
+                    <option >Watercolor</option>
+                    <option >Charcoal</option>
+                    <option >Ink</option>
+                    <option >Oil</option>
+                </select>
+            </div>
+                
+            <div style="margin: 20px;">
+                <label for=""><strong>Preferred surface :</strong></label> <br>
+                <input type="radio">
+                <label for="">Canvas</label>
+                <br>
+                <input type="radio" >
+                <label for="">Paper</label>
+                <br>
+                <input type="radio">
+                <label for="">Wood</label>
+                <br>
+                <input type="radio">
+                <label for="">Glass</label> 
+                <br>
+                <input type="radio">
+                <label for="">other</label>  
+                <br>
+                <label for="other">if other, please mention</label><br>
+                <input type="text"> 
+            </div>
+            <div>
+                <label for="what"><strong>Tell us about your favorite artist and how their painting inspires you</strong></label>
+                <br><br>
+                <textarea name="paragraph_text" cols="50" rows="6" style="border-radius: 5px;"></textarea>
+                <br>
+            </div>
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+
+
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 7 : Survey Form</h3>
+        <hr width="20%">
+        <form action="">
+            
+            <div>
+                <label for=""><strong>Full name : </strong></label>
+                <input type="text" name="name" placeholder="Enter full name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Age : </strong></label>
+                <input type="number" name="age" required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone : </strong></label>
+                <input type="tel" name="phone" placeholder="Enter phone number"  required> 
+            </div>
+            <div style="margin: 20px;">
+                <label for=""><strong>Gender :</strong></label> <br>
+                <input type="radio">
+                <label for="">Female</label>
+                <br>
+                <input type="radio" >
+                <label for="">Male</label>
+                <br>
+                <input type="radio">
+                <label for="">other</label>
+ 
+            </div>
+            <div style="margin: 10px;">
+                <label for=""><strong>Select Occupation</strong></label>
+                <select name="med">
+                    <option >State Government</option>
+                    <option >Central Government</option>
+                    <option >Public Sector</option>
+                    <option >Private Sector</option>
+                </select>
+            </div>
+                
+
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+
+
+        </form>
+        </div>
+
+
+        <div class="form">
+            <h3>Form 8 : Class Enrollment Form</h3>
+        <hr width="20%">
+        <form action="">
+            <p>Class Registeration</p>
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter full name"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="mail" placeholder="Enter email"  required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone : </strong></label>
+                <input type="tel" name="phone" placeholder="Enter phone number" required> 
+            </div>
+            <div style="margin: 10px;">
+                <label for=""><strong>Select Class Name: </strong></label>
+                <select name="med">
+                    <option >Class A</option>
+                    <option >Class B</option>
+                    <option >Class C</option>
+                    <option >Class D</option>
+                </select>
+            </div>
+                
+            <div style="margin: 20px;">
+                <label for=""><strong>Preferred Timing :</strong></label> <br>
+                <input type="radio">
+                <label for="">Morning</label>
+                <br>
+                <input type="radio" >
+                <label for="">Afternoon</label>
+                <br>
+                <input type="radio">
+                <label for="">Evening</label>
+                <br>
+                <input type="radio">
+                <label for="">other</label>  
+                <br>
+                <label for="other">if other, please mention</label><br>
+                <input type="text"> 
+            </div>
+           
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+
+
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 9 : Product Inquiry Form</h3>
+        <hr width="20%">
+        <form action="">
+            
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter full name" required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email" required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone Number : </strong></label>
+                <input type="tel" name="phone" placeholder="Enter phone number" required> 
+            </div>
+            <label for="other">Product Name :</label><br>
+                <input type="text"> 
+
+            <div>
+                <label for="what"><strong>Tell us about your favorite artist and how their painting inspires you</strong></label>
+                <br><br>
+                <textarea name="paragraph_text" cols="50" rows="6" style="border-radius: 5px;"></textarea>
+                <br>
+            </div>
+                
+
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+
+
+        </form>
+        </div>
+
+        <div class="form">
+            <h3>Form 10 : Sports Event Registeration Form</h3>
+        <hr width="20%">
+        <form action="">
+            
+            <div>
+                <label for=""><strong>Name : </strong></label>
+                <input type="text" name="name" placeholder="Enter full name" required> 
+            </div>
+            <div>
+                <label for=""><strong>Email : </strong></label>
+                <input type="email" name="email" placeholder="Enter email" required> 
+            </div>
+            <div>
+                <label for=""><strong>Phone Number : </strong></label>
+                <input type="tel" name="phone" placeholder="Enter phone number" required> 
+            </div>
+            <label for="other">What sport do you play? </label><br>
+                <input type="text"> 
+            <br>
+            <label for="other">Your highest achievement : </label><br>
+            <input type="text"> 
+            
+            <br>
+            <label for=""><strong>Please upload your certificates</strong></label>
+            <input type="file" name="certificates" id="">
+
+            <br>
+            <button style="padding: 8px; border: 1px solid black; border-radius: 15px; background-color: rgb(255, 248, 231);"><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+
+
+        </form>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
